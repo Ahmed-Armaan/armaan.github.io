@@ -9,25 +9,20 @@ import "./style.css"
 
 const App = () =>{
   const OptIconstyle = {height:'35px',width:'35px'};
-  const bodystyle = {color:'red'}
+  const bodystyle = {color:'red'};
+  const bodyHeight = {height:'625px'};
   const messages = [
     ">Nothing better than a fine morning to build a good day.",
     ">Afternoon can be so tiring sometimes.",
     ">Nice evenings of a hard worked day are so satisfying",
     ">I code at nights!!"
-  ]
+  ];
   const backgrounds=[
     "https://r4.wallpaperflare.com/wallpaper/712/851/599/artistic-pixel-art-8-bit-wallpaper-5930082d711aed1bd6f7f82fd021962d.jpg",
     "https://www.pixelstalk.net/wp-content/uploads/images6/8-Bit-Wallpaper-Free-Download.png",
     "https://wallpapers.com/images/high/8-bit-aesthetic-city-artwork-xe1moq1q21qqtlrf.webp",
     "https://wallpaper.dog/large/11005223.png"
-  ]
-  const imgs=[
-    "./assets/WhatsApp Image 2023-10-01 at 03.27.24.jpeg",
-    "./assets/WhatsApp Image 2023-10-01 at 03.27.50.jpeg",
-    "./assets/WhatsApp Image 2023-10-01 at 03.28.15.jpeg",
-    "./assets/IMG_20230929_022129(1).jpg"
-  ]
+  ];
   const [messagedis,updatemessage] = useState('');
   const [Hour,setHour] = useState(new Date().getHours());
   const [ctime,setTime] = useState(new Date().toLocaleTimeString());
@@ -71,9 +66,10 @@ const App = () =>{
       changeOptIcon(OptIcon2);
       setImage(img4);
     }
-  },[Hour])
+  },[Hour]);
+
   return(
-    <>
+    <div style={bodyHeight}>
     <div className="header" style={headstyle}>
       <a href=''><img src={OptIcon} style={OptIconstyle}></img></a>
       <div className="time">
@@ -86,12 +82,12 @@ const App = () =>{
     </div>
     <div className="body" style={bodystyle}>
       <h1 className="head1">hello!</h1>
-      <p className="head2">I am Armaan Ahmed,an undergraduate student and<br></br>a tech enmthusiast.
-      I can do full-stack<br></br>web development,game development in C++<br></br> and am learning AI/ML
-      and devops.<br></br>I find these fancy sillicon so intriguing.</p>\
+      <p className="head2">I am Armaan Ahmed,an undergraduate student and a tech<br></br>enthusiast.
+      I can do full-stack web development,<br></br>game development in C++and am currentlr<br></br>learning 
+      AI/ML and devops.<br></br>I find these fancy sillicon so intriguing.</p>
       <img className="image" src={image} alt={"me"}></img>
     </div>
-    </>
+    </div>
   );
 }
 
