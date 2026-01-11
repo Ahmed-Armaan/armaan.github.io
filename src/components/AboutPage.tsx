@@ -18,7 +18,7 @@ function AboutPage() {
 
         <div className="pt-2">
           <a
-            href="/Armaan_backend.pdf"
+            href="https://drive.google.com/file/d/1qLZrRtJ0ueAXB9kHFsq82NbzC8NiHwTt/view?usp=sharing"
             target="_blank"
             className="inline-block text-sm text-white/70 border border-white/30 px-4 py-1.5 rounded-md hover:text-white hover:border-white transition"
           >
