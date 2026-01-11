@@ -14,7 +14,7 @@ const projects = [
       "Built a React frontend for file browsing and uploads.",
     tech: ["Go", "Gin", "S3", "JWT", "TypeScript", "React", "PostgreSQL"],
     github: "https://github.com/Ahmed-Armaan/FileNest",
-    liveDemo: "https://www.google.com",
+    liveDemo: "https://file-nest-six.vercel.app/",
   },
   {
     id: "leetbattle",
@@ -29,7 +29,7 @@ const projects = [
       "Used PostgreSQL for match history and persistence, with a React frontend for the game UI.",
     tech: ["Go", "WebSockets", "TypeScript", "React", "PostgreSQL"],
     github: "https://github.com/Ahmed-Armaan/LeetBattle",
-    liveDemo: "https://www.google.com",
+    liveDemo: "https://leet-battle-two.vercel.app/",
   },
   {
     id: "tunneled",
@@ -44,7 +44,6 @@ const projects = [
       "Used MySQL for logging and metrics, with a React-based dashboard for visualization.",
     tech: ["Go", "gRPC", "Protocol Buffers", "Gin", "mySQL", "Networking", "Dockers"],
     github: "https://github.com/Ahmed-Armaan/Tunneled",
-    liveDemo: "https://www.google.com",
   },
   {
     id: "gorrent",
