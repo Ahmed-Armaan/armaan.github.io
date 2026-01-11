@@ -15,6 +15,9 @@ function SideBar(props: {
       <h1 className="text-2xl font-extrabold tracking-tight">
         Armaan
       </h1>
+      <div className="whitespace-nowrap text-sm text-neutral-500">
+        Backend & Systems Engineer
+      </div>
 
       {/* Navigation (centered) */}
       <ul className="flex-1 flex flex-col justify-center space-y-3">
