@@ -46,6 +46,19 @@ const projects = [
     github: "https://github.com/Ahmed-Armaan/Tunneled",
   },
   {
+    id: "Tpools",
+    name: "Tpools",
+    description: "A lightweight thread pool and task scheduling library in C.",
+    details:
+      "Implemented a multithreaded task scheduler using pthreads, mutexes, and condition variables.\n" +
+      "Designed a reusable and minimal API (tpool.h / tpool.c) supporting worker lifecycle management and safe task submission.\n" +
+      "Built a thread-safe task queue with optimized locking to reduce contention and improve throughput.\n" +
+      "Implemented graceful shutdown ensuring all queued tasks complete before termination.\n" +
+      "Added dynamic queue resizing to handle varying workloads efficiently.",
+    tech: ["C", "Pthreads", "Concurrency", "Systems Programming"],
+    github: "https://github.com/Ahmed-Armaan/Tpools"
+  },
+  {
     id: "gorrent",
     name: "Gorrent",
     description:
